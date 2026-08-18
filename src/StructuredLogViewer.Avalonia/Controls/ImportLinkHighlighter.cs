@@ -10,7 +10,7 @@ using Avalonia.Media.TextFormatting;
 using AvaloniaEdit;
 using AvaloniaEdit.Document;
 using AvaloniaEdit.Rendering;
-using Microsoft.Build.Logging.StructuredLogger;
+using Unity-Billal-mesloub.Build.Logging.StructuredLogger;
 using FontStyle = Avalonia.Media.FontStyle;
 
 namespace StructuredLogViewer.Avalonia.Controls
