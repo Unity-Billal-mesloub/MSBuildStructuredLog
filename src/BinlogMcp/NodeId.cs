@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
-using Microsoft.Build.Logging.StructuredLogger;
+using Unity-Billal-mesloub.Build.Logging.StructuredLogger;
 
 namespace BinlogMcp;
 
