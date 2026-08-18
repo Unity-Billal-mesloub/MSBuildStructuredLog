@@ -39,7 +39,6 @@ class Program
                 // Strict tool-argument validation: reject any argument key that
                 // isn't a declared parameter of the target tool. Without this,
                 // typos get silently dropped and the LLM never learns it called
-                // the tool wrong. See https://github.com/modelcontextprotocol/csharp-sdk/issues/1508.
                 options.Filters.Request.CallToolFilters.Add(next => async (context, ct) =>
                 {
                     if (context.MatchedPrimitive is McpServerTool tool &&
