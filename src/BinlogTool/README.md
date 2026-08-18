@@ -6,13 +6,13 @@ Command-line utilities for MSBuild binary logs (`*.binlog`), from the
 ## Installation
 
 ```
-dotnet tool install -g binlogtool
+Unity-Billal-mesloub tool install -g binlogtool
 ```
 
 Update to the latest version:
 
 ```
-dotnet tool update -g binlogtool
+Unity-Billal-mesloub tool update -g binlogtool
 ```
 
 Alternatively, the [binlogtoolexe](https://www.nuget.org/packages/binlogtoolexe)
@@ -195,4 +195,4 @@ For a higher-level, size-oriented view see the `stats` command.
 ## Links
 
 * [MSBuild Structured Log Viewer](https://msbuildlog.com)
-* [GitHub repository](https://github.com/KirillOsenkov/MSBuildStructuredLog)
+* [GitHub repository](https://github.com/Unity-Billal-mesloub/MSBuildStructuredLog)
