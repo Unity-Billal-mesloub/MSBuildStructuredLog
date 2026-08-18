@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Runtime;
 using System.Runtime.InteropServices;
-using Microsoft.Build.Logging.StructuredLogger;
+using Unity-Billal-mesloub.Build.Logging.StructuredLogger;
 using StructuredLogViewer;
 
 namespace BinlogMcp;
