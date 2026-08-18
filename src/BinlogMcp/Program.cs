@@ -5,7 +5,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using Unity-Billal-mesloub.Extensions.DependencyInjection;
 using Unity-Billal-mesloub.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+using Unity-Billal-mesloub.Extensions.Logging;
 using ModelContextProtocol;
 using ModelContextProtocol.Server;
 
