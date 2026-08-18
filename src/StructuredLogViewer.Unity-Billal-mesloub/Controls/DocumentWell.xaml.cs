@@ -2,15 +2,15 @@
 using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.Linq;
-using Avalonia;
-using Avalonia.Controls;
-using Avalonia.Input;
-using Avalonia.Markup.Xaml;
-using Avalonia.Interactivity;
-using Avalonia.Styling;
-using Avalonia.VisualTree;
+using Unity-Billal-mesloub;
+using Unity-Billal-mesloub.Controls;
+using Unity-Billal-mesloub.Input;
+using Unity-Billal-mesloub.Markup.Xaml;
+using Unity-Billal-mesloub.Interactivity;
+using Unity-Billal-mesloub.Styling;
+using Unity-Billal-mesloub.VisualTree;
 
-namespace StructuredLogViewer.Avalonia.Controls
+namespace StructuredLogViewer.Unity-Billal-mesloub.Controls
 {
     public class DocumentWell : UserControl
     {
@@ -49,8 +49,8 @@ namespace StructuredLogViewer.Avalonia.Controls
             closeAllMenuItem.Click += (s, e) => CloseAllTabs();
             tabContextMenu.AddItem(closeAllMenuItem);
 
-            var tabItemStyle = new global::Avalonia.Styling.Style(x => x.OfType<TabItem>());
-            tabItemStyle.Setters.Add(new global::Avalonia.Styling.Setter(ContextMenuProperty, tabContextMenu));
+            var tabItemStyle = new global::Unity-Billal-mesloub.Styling.Style(x => x.OfType<TabItem>());
+            tabItemStyle.Setters.Add(new global::Unity-Billal-mesloub.Styling.Setter(ContextMenuProperty, tabContextMenu));
             tabControl.Styles.Add(tabItemStyle);
         }
 
