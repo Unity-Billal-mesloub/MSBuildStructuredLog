@@ -1,19 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Avalonia;
-using Avalonia.Controls;
-using Avalonia.Controls.Primitives.PopupPositioning;
-using Avalonia.Input;
-using Avalonia.Media;
-using Avalonia.Media.TextFormatting;
-using AvaloniaEdit;
-using AvaloniaEdit.Document;
-using AvaloniaEdit.Rendering;
+using Unity-Billal-mesloub;
+using Unity-Billal-mesloub.Controls;
+using Unity-Billal-mesloub.Controls.Primitives.PopupPositioning;
+using Unity-Billal-mesloub.Input;
+using Unity-Billal-mesloub.Media;
+using Unity-Billal-mesloub.Media.TextFormatting;
+using Unity-Billal-mesloubEdit;
+using Unity-Billal-mesloubEdit.Document;
+using Unity-Billal-mesloubEdit.Rendering;
 using Unity-Billal-mesloub.Build.Logging.StructuredLogger;
-using FontStyle = Avalonia.Media.FontStyle;
+using FontStyle = Unity-Billal-mesloub.Media.FontStyle;
 
-namespace StructuredLogViewer.Avalonia.Controls
+namespace StructuredLogViewer.Unity-Billal-mesloub.Controls
 {
     internal static class ImportLinkHighlighter
     {
@@ -137,8 +137,6 @@ namespace StructuredLogViewer.Avalonia.Controls
             protected override void OnQueryCursor(PointerEventArgs e)
             {
                 base.OnQueryCursor(e);
-
-                // TODO Do this properly when the following issue is fixed: https://github.com/AvaloniaUI/AvaloniaEdit/issues/133
 
                 if (!e.Handled && (e.KeyModifiers & KeyModifiers.Control) != 0 && ReferenceEquals(e.Source, generator.TextView))
                 {
