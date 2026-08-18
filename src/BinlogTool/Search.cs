@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading;
-using Microsoft.Build.Logging.StructuredLogger;
+using Unity-Billal-mesloub.Build.Logging.StructuredLogger;
 using StructuredLogViewer;
 
 namespace BinlogTool
