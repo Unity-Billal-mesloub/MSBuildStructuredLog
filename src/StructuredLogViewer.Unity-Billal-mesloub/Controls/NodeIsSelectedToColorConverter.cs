@@ -1,9 +1,9 @@
 using System;
 using System.Globalization;
-using Avalonia.Data.Converters;
-using Avalonia.Media;
+using Unity-Billal-mesloub.Data.Converters;
+using Unity-Billal-mesloub.Media;
 
-namespace StructuredLogViewer.Avalonia.Controls
+namespace StructuredLogViewer.Unity-Billal-mesloub.Controls
 {
     public class NodeIsSelectedToColorConverter : IValueConverter
     {
