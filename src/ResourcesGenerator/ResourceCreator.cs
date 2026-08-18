@@ -16,10 +16,10 @@ namespace ResourcesGenerator
         private static string[] dlls = new string[]
         {
             "MSBuild.exe",
-            "Microsoft.Build.dll",
-            "Microsoft.Build.Tasks.Core.dll",
-            "Microsoft.Build.Utilities.Core.dll",
-            "Roslyn\\Microsoft.CodeAnalysis.dll"
+            "Unity-Billal-mesloub.Build.dll",
+            "Unity-Billal-mesloub.Build.Tasks.Core.dll",
+            "Unity-Billal-mesloub.Build.Utilities.Core.dll",
+            "Roslyn\\Unity-Billal-mesloub.CodeAnalysis.dll"
         };
 
         public static string[] ResourceNames = new[]
