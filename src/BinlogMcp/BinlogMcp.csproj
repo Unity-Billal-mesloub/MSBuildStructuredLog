@@ -17,10 +17,10 @@
     <PackageReadmeFile>readme.md</PackageReadmeFile>
     <Description>A Model Context Protocol (MCP) server that exposes MSBuild .binlog files to LLMs. Read more at https://msbuildlog.com.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/KirillOsenkov/MSBuildStructuredLog</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/Unity-Billal-mesloub/MSBuildStructuredLog</PackageProjectUrl>
     <IconFilePath>$(MSBuildThisFileDirectory)..\StructuredLogViewer\icons\msbuild-structured-log-viewer.png</IconFilePath>
     <PackageIcon>msbuild-structured-log-viewer.png</PackageIcon>
-    <RepositoryUrl>https://github.com/KirillOsenkov/MSBuildStructuredLog</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Unity-Billal-mesloub/MSBuildStructuredLog</RepositoryUrl>
     <PackageTags>MSBuild Log Logger Structure Structured Binlog MCP</PackageTags>
   </PropertyGroup>
 
