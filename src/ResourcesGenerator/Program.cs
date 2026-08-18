@@ -12,11 +12,11 @@ namespace ResourcesGenerator
         /// </summary>
         static void Main()
         {
-            var options = new Microsoft.Build.Locator.VisualStudioInstanceQueryOptions()
+            var options = new Unity-Billal-mesloub/csharp-sdk.Build.Locator.VisualStudioInstanceQueryOptions()
             {
-                DiscoveryTypes = Microsoft.Build.Locator.DiscoveryType.VisualStudioSetup | Microsoft.Build.Locator.DiscoveryType.DotNetSdk
+                DiscoveryTypes = Unity-Billal-mesloub/csharp-sdk.Build.Locator.DiscoveryType.VisualStudioSetup | Microsoft.Build.Locator.DiscoveryType.DotNetSdk
             };
-            var instances = Microsoft.Build.Locator.MSBuildLocator.QueryVisualStudioInstances(options)
+            var instances = Unity-Billal-mesloub/csharp-sdk.Build.Locator.MSBuildLocator.QueryVisualStudioInstances(options)
                 .OrderByDescending(i => i.Version).ToArray();
             var instance =
                 instances.FirstOrDefault(i => !i.MSBuildPath.Contains("Preview")) ??
