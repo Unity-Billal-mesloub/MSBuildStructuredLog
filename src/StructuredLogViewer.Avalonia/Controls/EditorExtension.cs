@@ -7,7 +7,7 @@ using Avalonia.Controls.Primitives.PopupPositioning;
 using AvaloniaEdit;
 using AvaloniaEdit.Document;
 using AvaloniaEdit.Rendering;
-using Microsoft.Build.Logging.StructuredLogger;
+using Unity-Billal-mesloub.Build.Logging.StructuredLogger;
 
 namespace StructuredLogViewer.Avalonia.Controls
 {
