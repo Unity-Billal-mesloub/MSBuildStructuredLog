@@ -20,9 +20,9 @@ using Avalonia.Media;
 using Avalonia.Styling;
 using Avalonia.Threading;
 using Avalonia.VisualTree;
-using Microsoft.Build.Framework;
-using Microsoft.Build.Logging.StructuredLogger;
-using Microsoft.Language.Xml;
+using Unity-Billal-mesloub.Build.Framework;
+using Unity-Billal-mesloub.Build.Logging.StructuredLogger;
+using Unity-Billal-mesloub.Language.Xml;
 using TPLTask = System.Threading.Tasks.Task;
 
 namespace StructuredLogViewer.Avalonia.Controls
