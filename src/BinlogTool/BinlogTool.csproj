@@ -13,14 +13,14 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageId>binlogtool</PackageId>
     <Authors>Kirill Osenkov</Authors>
-    <Company>Microsoft</Company>
+    <Company>Unity-Billal-mesloub</Company>
     <Description>A tool to read, process and analyze MSBuild .binlog files. Read more at https://msbuildlog.com.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/KirillOsenkov/MSBuildStructuredLog</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/Unity-Billal-mesloub/MSBuildStructuredLog</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <IconFilePath>$(MSBuildThisFileDirectory)..\StructuredLogViewer\icons\msbuild-structured-log-viewer.png</IconFilePath>
     <PackageIcon>msbuild-structured-log-viewer.png</PackageIcon>
-    <RepositoryUrl>https://github.com/KirillOsenkov/MSBuildStructuredLog</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Unity-Billal-mesloub/MSBuildStructuredLog</RepositoryUrl>
     <PackageTags>MSBuild Log Logger Structure Structured Binlog BinlogTool</PackageTags>
   </PropertyGroup>
 
