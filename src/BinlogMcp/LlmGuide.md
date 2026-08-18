@@ -239,7 +239,7 @@ When the build's output `bin\` / publish directory is still available on the loc
 - **`refdump <dir>\*.dll [-a:Name [-t [-m]]]`** — assembly reference graph, optionally narrowed to consumers of one assembly (workhorse for "who's using `Newtonsoft.Json`?").
 - **`checkbinarycompat <dir>`** — missing assemblies, version mismatches, missing/changed members across an output directory, binding redirects, app.config files.
 
-The binlog explains *why* `Foo.dll` landed in the output and *from which NuGet package*; the triad tells you *what version actually shipped on disk* and *who references it now*. Especially useful follow-ups to the `$copy` and `$nuget` recipes above. Full docs and decision tree: <https://github.com/KirillOsenkov/MetadataTools/blob/main/llms.txt>
+The binlog explains *why* `Foo.dll` landed in the output and *from which NuGet package*; the triad tells you *what version actually shipped on disk* and *who references it now*. Especially useful follow-ups to the `$copy` and `$nuget` recipes above. Full docs and decision tree: <https://github.com/Unity-Billal-mesloub/MetadataTools/blob/main/llms.txt>
 
 ## Pitfalls
 
