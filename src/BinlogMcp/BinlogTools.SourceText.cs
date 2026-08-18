@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using Microsoft.Build.Logging.StructuredLogger;
+using Unity-Billal-mesloub.Build.Logging.StructuredLogger;
 using ModelContextProtocol.Server;
 
 namespace BinlogMcp;
