@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel;
 using System.Text;
-using Microsoft.Build.Logging.StructuredLogger;
+using Unity-Billal-mesloub.Build.Logging.StructuredLogger;
 using ModelContextProtocol.Server;
 
 namespace BinlogMcp;
