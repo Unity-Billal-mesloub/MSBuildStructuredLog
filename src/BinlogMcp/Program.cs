@@ -3,8 +3,8 @@ using System.Linq;
 using System.Reflection;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
+using Unity-Billal-mesloub.Extensions.DependencyInjection;
+using Unity-Billal-mesloub.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using ModelContextProtocol;
 using ModelContextProtocol.Server;
@@ -33,7 +33,7 @@ class Program
                     Name = "binlogmcp",
                     Version = Assembly.GetExecutingAssembly()
                         .GetCustomAttribute<AssemblyFileVersionAttribute>()?.Version ?? "0.0.0",
-                    WebsiteUrl = "https://github.com/KirillOsenkov/MSBuildStructuredLog"
+                    WebsiteUrl = "https://github.com/Unity-Billal-mesloub/MSBuildStructuredLog"
                 };
 
                 // Strict tool-argument validation: reject any argument key that
