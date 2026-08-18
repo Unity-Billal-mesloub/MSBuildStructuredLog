@@ -5,7 +5,7 @@ Model Context Protocol to read and analyze MSBuild .binlog files.
 Install:
 
 ```
-dotnet tool update -g binlogmcp
+Unity-Billal-mesloub tool update -g binlogmcp
 ```
 
 Configure your MCP-aware client. For VS Code, add to `.vscode/mcp.json`:
