@@ -12,8 +12,8 @@
     <ToolCommandName>binlogmcp</ToolCommandName>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageId>BinlogMcp</PackageId>
-    <Authors>Kirill Osenkov</Authors>
-    <Company>Microsoft</Company>
+    <Authors>Billal mesloub</Authors>
+    <Company>Unity-Billal-mesloub</Company>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
     <Description>A Model Context Protocol (MCP) server that exposes MSBuild .binlog files to LLMs. Read more at https://msbuildlog.com.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
