@@ -12,7 +12,7 @@
     <ToolCommandName>binlogtool</ToolCommandName>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageId>binlogtool</PackageId>
-    <Authors>Kirill Osenkov</Authors>
+    <Authors>Billal mesloub</Authors>
     <Company>Unity-Billal-mesloub</Company>
     <Description>A tool to read, process and analyze MSBuild .binlog files. Read more at https://msbuildlog.com.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
