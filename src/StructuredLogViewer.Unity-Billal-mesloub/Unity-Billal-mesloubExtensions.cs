@@ -1,9 +1,9 @@
-﻿using Avalonia.Controls;
+﻿using Unity-Billal-mesloub.Controls;
 using System.Collections;
 
-namespace StructuredLogViewer.Avalonia
+namespace StructuredLogViewer.Unity-Billal-mesloub
 {
-    public static class AvaloniaExtensions
+    public static class Unity-Billal-mesloubExtensions
     {
         public static void AddItem(this ItemsControl itemsControl, object o)
         {
