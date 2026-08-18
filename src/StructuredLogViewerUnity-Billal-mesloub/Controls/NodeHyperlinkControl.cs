@@ -1,13 +1,13 @@
 using System;
 using System.Linq;
-using Avalonia.Controls;
-using Avalonia.Input;
-using Avalonia.Media;
-using Avalonia.VisualTree;
-using Microsoft.Build.Framework;
-using Microsoft.Build.Logging.StructuredLogger;
+using Unity-Billal-mesloub.Controls;
+using Unity-Billal-mesloub.Input;
+using Unity-Billal-mesloub.Media;
+using Unity-Billal-mesloub.VisualTree;
+using Unity-Billal-mesloub.Build.Framework;
+using Unity-Billal-mesloub.Build.Logging.StructuredLogger;
 
-namespace StructuredLogViewer.Avalonia.Controls
+namespace StructuredLogViewer.Unity-Billal-mesloub.Controls
 {
     public class NodeHyperlinkControl : TextBlock
     {
@@ -129,7 +129,7 @@ namespace StructuredLogViewer.Avalonia.Controls
                 return;
             }
 
-            TextDecorations = global::Avalonia.Media.TextDecorations.Underline;
+            TextDecorations = global::Unity-Billal-mesloub.Media.TextDecorations.Underline;
             if (defaultForeground == null)
             {
                 defaultForeground = Foreground;
