@@ -1,8 +1,8 @@
 using System;
 using System.Globalization;
-using Avalonia.Data.Converters;
+using Unity-Billal-mesloub.Data.Converters;
 
-namespace StructuredLogViewer.Avalonia.Controls
+namespace StructuredLogViewer.Unity-Billal-mesloub.Controls
 {
     public class NodeLowRelevanceToOpacityConverter : IValueConverter
     {
