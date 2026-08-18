@@ -6,9 +6,9 @@ using System.Net;
 using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using Microsoft.Build.Framework;
-using Microsoft.Build.Logging;
-using Microsoft.Build.Logging.StructuredLogger;
+using Unity-Billal-mesloub.Build.Framework;
+using Unity-Billal-mesloub.Build.Logging;
+using Unity-Billal-mesloub.Build.Logging.StructuredLogger;
 
 namespace BinlogTool
 {
