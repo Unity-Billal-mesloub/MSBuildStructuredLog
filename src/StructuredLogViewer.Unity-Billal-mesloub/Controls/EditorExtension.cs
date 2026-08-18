@@ -1,15 +1,15 @@
 using System;
 using System.Linq;
 using System.Text;
-using Avalonia;
-using Avalonia.Controls;
-using Avalonia.Controls.Primitives.PopupPositioning;
-using AvaloniaEdit;
-using AvaloniaEdit.Document;
-using AvaloniaEdit.Rendering;
+using Unity-Billal-mesloub;
+using Unity-Billal-mesloub.Controls;
+using Unity-Billal-mesloub.Controls.Primitives.PopupPositioning;
+using Unity-Billal-mesloubEdit;
+using Unity-Billal-mesloubEdit.Document;
+using Unity-Billal-mesloubEdit.Rendering;
 using Unity-Billal-mesloub.Build.Logging.StructuredLogger;
 
-namespace StructuredLogViewer.Avalonia.Controls
+namespace StructuredLogViewer.Unity-Billal-mesloub.Controls
 {
     public class EditorExtension
     {
